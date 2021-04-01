@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+/*-- Reset --*/
+html,
+body {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  font-size: large;
+  scroll-behavior: smooth;
+}
+
+/*============= NAVIGATION =============*/
+.navbar-brand img {
+  height: 2.8rem;
+}
+.navbar {
+  background: linear-gradient(to right, #b6f1f9, #f6a2a0);
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.nav-item {
+  padding: 0.7rem;
+}
+.nav-link {
+  color: #0077b6 !important;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #023e8a !important;
+}
+/*============= CAROUSEL =============*/
+
+.carousel-inner {
+  max-height: 40rem !important;
+}
+
+/*---Change Carousel Transition Speed --*/
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  transition: transform 1.2s ease;
+}
+.carousel-indicators li {
+  border: 1px solid #a6a6a6;
+  width: 40px;
+  height: 5px;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+/*-- Carousel Content --*/
+.carousel-caption {
+  position: absolute;
+  top: 47%;
+  transform: translateY(-50%);
+}
+
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  border-radius: 1.3rem;
+  padding: 1rem;
+}
+.bg-light {
+  background-color: rgba(255, 255, 255, 0.7) !important;
+  border-radius: 1.3rem;
+  padding: 1rem;
+}
+
+.carousel-caption h3 {
+  font-size: 2.3rem;
+  font-weight: 300;
+}
+
+p.lead {
+  font-size: 1.5rem;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*============= SOCIAL MEDIA STICKY BAR =============*/
+
+.jumbotron {
+  background-color: #f6a2a0 !important;
+  padding: 1rem 0 0.5rem;
+  margin-bottom: 0;
+  border-radius: 0;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+ul.social {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0 auto;
+}
+ul.social li {
+  margin: 0 auto;
+}
+.jumbotron .svg-inline--fa {
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+
+.jumbotron .svg-inline--fa:hover {
+  color: grey !important;
+}
+
+/* MORE THINGS */
+.woman-image {
+  margin-bottom: 30px;
+}
+.contact-hr-line {
+  height: 2px;
+  background-color: white;
+}
+
+/*buttons*/
+
+.btn-primary {
+  background-color: #b6f1f9 !important;
+  border-color: #b6f1f9 !important;
+  color: #1a1a1a !important;
+}
+
+/*modal*/
+
+.modalBody {
+  margin: auto;
+  width: 50%;
+}
+
+#modalBodyId {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalContent {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  margin: 20% auto;
+  padding: 20px;
+  width: 70%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.4);
+  animation-name: modalopen;
+  animation-duration: 1s;
+}
+
+.closeBtn {
+  float: right;
+  font-size: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*===== FIXED BACKGROUND IMG =====*/
+
+.fixed-background {
+  padding: 12rem 0;
+  border-top: 0.05rem solid black;
+  border-bottom: 0.05rem solid black;
+  margin-bottom: 2px;
+  height: 100vh; /*-- remove --*/
+  overflow: hidden;
+}
+.fixed {
+  background-image: url("../img/cake4.jpg");
+  position: fixed;
+}
+
+/*============= FOOTER =============*/
+
+footer {
+  background-color: #1a1a1a;
+  padding: 1rem 2rem 3rem;
+}
+footer img {
+  height: 3.5rem;
+  margin: 1.5rem auto;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+/*============= SOCKET =============*/
+
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px) {
+  .carousel-caption h3 {
+    font-size: 1.8rem;
+  }
+}
+/* Devices under 992px (xl) */
+@media (max-width: 991.98px) {
+  p.lead {
+    font-size: 1.2rem;
+  }
+  .carousel-indicators li {
+    width: 30px;
+    height: 4px;
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+}
+/* Devices under 768px (md) */
+@media (max-width: 767.98px) {
+  p.lead {
+    font-size: 1.1rem;
+  }
+  .navbar-brand img {
+    height: 2.5rem;
+  }
+  .navbar {
+    font-size: 1rem;
+    padding: 0.4rem 0.6rem;
+  }
+  .jumbotron .svg-inline--fa {
+    font-size: 1.6rem;
+    margin: 0.8rem;
+  }
+}
+/* Devices under 576px (sm) */
+@media (max-width: 575.98px) {
+  .navbar-brand img {
+    height: 2.3rem;
+  }
+  .navbar {
+    font-size: 0.9rem;
+    padding: 0.3rem 0.6rem;
+  }
+  .jumbotron .svg-inline--fa {
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+  }
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
+/*-- Bootstrap Mobile Gutter Fix --*/
+.row,
+.container-fluid {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+/*-- Fixed Background Image --*/
+.fixed-background {
+  position: relative;
+  width: 100%;
+  z-index: 1000 !important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999 !important;
+}
+.fixed {
+  z-index: -999 !important;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}

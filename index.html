@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bee</title>
+    <!-- <link rel="shortcut icon" href="img/favicon.ico"> -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="navigation-sticky">
+      <!-- Navigation -->
+      <nav class="navbar bg-secondary navbar-light navbar-expand-lg sticky-top">
+        <div class="container-fluid padding">
+          <a href="index.html" class="navbar-brand"
+            ><img src="img/logo2.png" alt="logo"
+          /></a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about-id" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#features-id" class="nav-link">Features</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact-id" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navigation -->
+
+      <!-- Image Carousel -->
+      <div
+        id="carousel"
+        class="carousel slide"
+        data-ride="carousel"
+        data-interval="6000"
+      >
+        <!-- image one -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/cake1.jpg" class="carousel-img" />
+            <div class="carousel-caption">
+              <div class="container-fluid padding">
+                <div class="row justify-content-end">
+                  <!-- Carousel Content -->
+                  <div
+                    class="d-none d-md-block col-md-11 col-lg-0 col-xl-8 bg-dark text-right main-info"
+                  >
+                    <h3 class="pb-3">Welcome to bee</h3>
+                    <div
+                      class="border-top border-white mb-3 w-75 ml-auto"
+                    ></div>
+                    <p class="lead">
+                      Just take a moment to explore a wonderful place that can
+                      make your day more sweet!
+                    </p>
+                    <a class="btn btn-primary btn-md">Take a look</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- image two -->
+          <div class="carousel-item">
+            <img src="img/cake2.jpg" class="carousel-img" />
+          </div>
+
+          <!-- image three -->
+          <div class="carousel-item">
+            <img src="img/cake3.jpg" class="carousel-img" />
+            <div class="carousel-caption">
+              <div class="container-fluid padding">
+                <div class="row">
+                  <!-- Carousel Content -->
+                  <div
+                    class="d-none d-md-block col-md-9 col-lg-7 bg-light text-left text-dark"
+                  >
+                    <h3>Here's bee</h3>
+                    <div class="border-top border-dark my-1 w-75"></div>
+                    <p class="lead">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam
+                    </p>
+                    <a class="btn btn-light btn-md">Take a look</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Carousel Content -->
+
+        <!-- Carousel Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+        <!-- End Carousel Indicators -->
+      </div>
+
+      <!-- End Carousel -->
+    </div>
+    <!-- End Navigation Sticky ID Section -->
+
+    <div id="social-media-sticky">
+      <!-- Start Social Jumbotron -->
+      <div class="jumbotron sticky-top">
+        <div class="container-fluid padding">
+          <div class="row justify-content-center text-center">
+            <div class="d-none d-xl-block col-xl-6 pt-1">
+              <h3>Connect with us on social media</h3>
+            </div>
+            <div class="col-sm-10 col-md-8 col-lg-7 col-xl-6 pt-1">
+              <ul class="social">
+                <li>
+                  <a href="" target="_blank">
+                    <i class="fab fa-facebook" style="color: #4267b2"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="" target="_blank">
+                    <i class="fab fa-twitter" style="color: #1da1f2"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="" target="_blank" style="color: #c13584">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="" target="_blank" style="color: #bd081c">
+                    <i class="fab fa-pinterest"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Social Jumbotron -->
+
+      <!-- Main Page Heading -->
+      <div class="col-12 text-center mt-5">
+        <h1 class="display-4 pt-4">Just take a look</h1>
+        <div class="border-top border-dark w-50 mx-auto my-3"></div>
+        <p class="lead">you won't regret it</p>
+      </div>
+
+      <!-- modal info -->
+      <div id="modalBodyId" class="modalBody">
+        <div class="modalContent">
+          <div class="modal-head">
+            <span class="closeBtn">&times;</span>
+            <h3>Butter Cake</h3>
+          </div>
+
+          <hr class="contact-hr-line w-40 test-photos" />
+
+          <div class="modal-body">
+            <ul>
+              <li>Unsalted butter</li>
+              <li>All purpose flour</li>
+              <li>Sugar</li>
+              <li>Eggs</li>
+              <li>Yogurt or Milk</li>
+              <li>Baking powder</li>
+              <li>Vanilla extract</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <h3>Price: 29.99$</h3>
+          </div>
+        </div>
+      </div>
+      <!-- modal info end -->
+
+      <!-- Three Column Section -->
+      <div class="container-fluid padding">
+        <div class="row justify-content-center my-5 text-center">
+          <div class="col-md-6 col-lg-4 py-3">
+            <img src="img/cake1.jpg" class="w-100 images" />
+            <p class="lead text-test">Butter Cake</p>
+            <a id="modalBtn" class="btn btn-outline-dark btn-md text-test"
+              >learn more</a
+            >
+          </div>
+
+          <div class="col-md-6 col-lg-4 py-3">
+            <img src="img/cake1.jpg" class="w-100 images" />
+            <p class="lead text-test">Genoise Cake</p>
+            <a href="" class="btn btn-outline-dark btn-md text-test"
+              >learn more</a
+            >
+          </div>
+
+          <div class="col-md-6 col-lg-4 py-3">
+            <img src="img/cake1.jpg" class="w-100 images" />
+            <p class="lead text-test">Angel Food Cake</p>
+            <a href="" class="btn btn-outline-dark btn-md text-test"
+              >learn more</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid padding">
+        <div class="row justify-content-center my-5 text-center">
+          <div class="col-md-6 col-lg-4 py-3">
+            <img src="img/cake1.jpg" class="w-100 images" />
+            <p class="lead text-test">Butter Cake</p>
+            <a id="modalBtn" class="btn btn-outline-dark btn-md text-test"
+              >learn more</a
+            >
+          </div>
+
+          <div class="col-md-6 col-lg-4 py-3">
+            <img src="img/cake1.jpg" class="w-100 images" />
+            <p class="lead text-test">Genoise Cake</p>
+            <a href="" class="btn btn-outline-dark btn-md text-test"
+              >learn more</a
+            >
+          </div>
+
+          <div class="col-md-6 col-lg-4 py-3">
+            <img src="img/cake1.jpg" class="w-100 images" />
+            <p class="lead text-test">Angel Food Cake</p>
+            <a href="" class="btn btn-outline-dark btn-md text-test"
+              >learn more</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- End Three Column Section -->
+
+      <!-- border -->
+      <div class="border-top border-dark w-80 mx-auto my-3"></div>
+
+      <!-- Start Two Column Section -->
+      <div class="container-fluid padding mt-5" id="about-id">
+        <div class="row py-4">
+          <div class="col-lg-5 mb-4 my-lg-auto">
+            <h1 class="font-weight-bold mb-3">About me</h1>
+            <p class="mb-4">
+              Good! You found me! I'm the Bee , or rather Ildi. What do you want
+              to sweeten up with today? A little respite from you, you'll be
+              able to wander a little on my page and you'll certanly find
+              something that will delight you. From sophisticated and refined
+              sweets to the simplest I will take you into a magnificent world of
+              flavors, textures and colors. I invite you fondly to forget your
+              time and yourself. When sweet is art!
+            </p>
+            <a href="#" target="_blank" class="btn btn-outline-dark btn-lg"
+              >Learn more</a
+            >
+          </div>
+          <div class="col-lg-7">
+            <img src="img/woman.jpg" class="w-100 woman-image" />
+          </div>
+        </div>
+      </div>
+      <!-- End Two Column Section -->
+    </div>
+    <!-- End Social Media Sticky -->
+
+    <!-- Start Fixed Background IMG
+    <div class="fixed-background h-75">
+      <div class="fixed-wrap">
+        <div class="fixed"></div>
+      </div>
+    </div> -->
+
+    <!-- End Fixed Background IMG -->
+    <div id="text-button-sticky">
+      <!-- Start Bundle Pack Jumbotron -->
+      <div class="jumbotron sticky-top" style="margin-bottom: 2px">
+        <div class="container-fluid padding">
+          <div class="row justify-content-center text-center">
+            <div class="d-none d-md-block col-md-8 col-xl-7 my-auto">
+              <h4>Lorem lorem lorem</h4>
+            </div>
+
+            <div class="col-md-4 col-xl-3 pt-1 pt-md-2 pb-2">
+              <a
+                href="https://w3newbie.com"
+                target="_blank"
+                class="btn btn-primary btn-md"
+                >Lorem lorem lorem</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Bundle Pack Jumbotron -->
+
+      <!-- Three Column Section -->
+      <div class="container-fluid padding">
+        <div class="row justify-content-center my-5 text-center">
+          <div class="col-md-6 col-lg-4 my-4">
+            <h4 class="my-3">Lorem lorem lorem</h4>
+            <img src="img/cakecake.jpg" class="w-100" />
+            <p>lorem lorem lorem lorem lorem lorem lorem</p>
+            <a href="#" target="_blank" class="btn btn-primary btn-md"
+              >see more</a
+            >
+          </div>
+          <div class="col-md-6 col-lg-4 my-4">
+            <h4 class="my-3">Lorem lorem lorem</h4>
+            <img src="img/cakecake.jpg" class="w-100" />
+            <p>lorem lorem lorem lorem lorem lorem lorem</p>
+            <a href="#" target="_blank" class="btn btn-primary btn-md"
+              >see more</a
+            >
+          </div>
+          <div class="col-md-6 col-lg-4 my-4">
+            <h4 class="my-3">Lorem lorem lorem</h4>
+            <img src="img/cakecake.jpg" class="w-100" />
+            <p>lorem lorem lorem lorem lorem lorem lorem</p>
+            <a href="#" target="_blank" class="btn btn-primary btn-md"
+              >see more</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- End Three Column Section -->
+
+      <!-- border -->
+    </div>
+    <!-- End Text Button Sticky -->
+
+    <div class="container-fluid padding mt-5" id="features-id">
+      <div class="row py-4">
+        <div class="col-lg-5 mb-4 my-lg-auto">
+          <h1 class="font-weight-bold mb-3">Wedding cakes</h1>
+          <p class="mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse
+          </p>
+          <a href="#" target="_blank" class="btn btn-outline-dark btn-lg"
+            >Learn more</a
+          >
+        </div>
+        <div class="col-lg-7">
+          <img src="img/cakecake.jpg" class="w-100" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Three Column Section -->
+
+    <!-- border -->
+
+    <div class="border-top border-dark w-80 mx-auto my-3"></div>
+
+    <!-- Start Footer -->
+    <footer class="" id="contact-id">
+      <div class="container-fluid padding">
+        <div class="row justify-content-center text-center text-light">
+          <div class="col-md-9">
+            <a href="index.html">
+              <img src="img/logo2.png" />
+            </a>
+          </div>
+          <div class="col-md-4">
+            <hr class="contact-hr-line" />
+            <h5>Contact</h5>
+            <hr class="contact-hr-line" />
+            <p><a href="tel:+5555555555">555-555-555</a></p>
+            <p><a href="tel:+5555555555">555-555-555</a></p>
+            <p>100 street name</p>
+            <p>city state 00000</p>
+          </div>
+          <div class="col-md-4">
+            <hr class="contact-hr-line" />
+            <h5>Contact</h5>
+            <hr class="contact-hr-line" />
+            <p><a href="tel:+5555555555">555-555-555</a></p>
+            <p><a href="tel:+5555555555">555-555-555</a></p>
+            <p>100 street name</p>
+            <p>city state 00000</p>
+          </div>
+          <div class="col-md-4">
+            <hr class="contact-hr-line" />
+            <h5>Contact</h5>
+            <hr class="contact-hr-line" />
+            <p><a href="tel:+5555555555">555-555-555</a></p>
+            <p><a href="tel:+5555555555">555-555-555</a></p>
+            <p>100 street name</p>
+            <p>city state 00000</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- End Footer -->
+
+    <!-- Script Source Files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script> -->
+    <script src="js/script.js"></script>
+    <!-- jQuery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Popper JS -->
+    <script src="js/popper.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="js/all.min.js"></script>
+
+    <!-- End Script Source Files -->
+  </body>
+</html>
