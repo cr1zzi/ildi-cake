@@ -181,21 +181,6 @@ ul.social li {
   }
 }
 
-/*===== FIXED BACKGROUND IMG =====*/
-
-.fixed-background {
-  padding: 12rem 0;
-  border-top: 0.05rem solid black;
-  border-bottom: 0.05rem solid black;
-  margin-bottom: 2px;
-  height: 100vh; /*-- remove --*/
-  overflow: hidden;
-}
-.fixed {
-  background-image: url("../img/cake4.jpg");
-  position: fixed;
-}
-
 /*============= FOOTER =============*/
 
 footer {
@@ -210,7 +195,6 @@ footer a {
   color: white;
   text-decoration: none;
 }
-/*============= SOCKET =============*/
 
 /*============= MEDIA QUERIES =============*/
 
@@ -248,6 +232,9 @@ footer a {
     font-size: 1.6rem;
     margin: 0.8rem;
   }
+  .main-page-title {
+    font-size: 2.7em;
+  }
 }
 /* Devices under 576px (sm) */
 @media (max-width: 575.98px) {
@@ -261,6 +248,10 @@ footer a {
   .jumbotron .svg-inline--fa {
     font-size: 1.4rem;
     margin: 0 0.5rem;
+  }
+
+  .main-page-title {
+    font-size: 2.3em;
   }
 }
 
