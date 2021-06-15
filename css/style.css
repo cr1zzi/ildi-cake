@@ -16,7 +16,7 @@ body {
 
 /* Loading screen*/
 .bee-wrapper {
-  background: white url("../img/bee.gif") no-repeat center;
+  background: white url("../img/bee.webp") no-repeat center;
   background-size: 300px;
   width: 100%;
   height: 100%;
@@ -262,6 +262,9 @@ footer a {
   }
   .main-page-title {
     font-size: 2.7em;
+  }
+  .contact-map {
+    display: none;
   }
 }
 /* Devices under 576px (sm) */
